@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "text": "Complaint",
+      "text": "https://github.com/camunda/camunda-bpm-examples/tree/master/usertask/task-form-embedded\n\nFollow this, use the camunda java app thingy to embedd complaint text",
       "type": "text",
       "id": "Field_0gmtf2q"
     },
