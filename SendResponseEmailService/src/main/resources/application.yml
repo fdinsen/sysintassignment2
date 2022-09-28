@@ -1,0 +1,7 @@
+camunda.bpm.client:
+  base-url: http://localhost:8080/engine-rest
+  subscriptions:
+    SendResponseEmail:
+      process-definition-key: send-response
+      include-extension-properties: true
+      variable-names: response, complainer-email
