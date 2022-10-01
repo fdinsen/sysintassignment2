@@ -1,9 +1,21 @@
 {
   "components": [
     {
-      "text": "https://github.com/camunda/camunda-bpm-examples/tree/master/usertask/task-form-embedded\n\nFollow this, use the camunda java app thingy to embedd complaint text",
+      "text": "### Handle this complaint",
       "type": "text",
-      "id": "Field_0gmtf2q"
+      "id": "Field_0hcgxen"
+    },
+    {
+      "label": "Complainer email:",
+      "type": "textfield",
+      "id": "Field_0jxv74e",
+      "key": "emailInput"
+    },
+    {
+      "label": "Complaint",
+      "type": "textfield",
+      "id": "Field_15y4wlz",
+      "key": "complaintInput"
     },
     {
       "label": "Response",

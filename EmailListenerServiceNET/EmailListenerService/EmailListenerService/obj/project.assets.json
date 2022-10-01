@@ -448,19 +448,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gamma\\.nuget\\packages\\": {}
+    "C:\\Users\\sebas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gamma\\OneDriveEFIF\\OneDrive - EFIF\\CPH Business\\Software Development\\System Integration\\Assignment 2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\EmailListenerService.csproj",
+      "projectUniqueName": "C:\\Users\\sebas\\Documents\\Soft\\system_integration\\exercises\\exercise2\\sysintassignment2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\EmailListenerService.csproj",
       "projectName": "EmailListenerService",
-      "projectPath": "C:\\Users\\gamma\\OneDriveEFIF\\OneDrive - EFIF\\CPH Business\\Software Development\\System Integration\\Assignment 2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\EmailListenerService.csproj",
-      "packagesPath": "C:\\Users\\gamma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gamma\\OneDriveEFIF\\OneDrive - EFIF\\CPH Business\\Software Development\\System Integration\\Assignment 2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\obj\\",
+      "projectPath": "C:\\Users\\sebas\\Documents\\Soft\\system_integration\\exercises\\exercise2\\sysintassignment2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\EmailListenerService.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sebas\\Documents\\Soft\\system_integration\\exercises\\exercise2\\sysintassignment2\\EmailListenerServiceNET\\EmailListenerService\\EmailListenerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gamma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -16,7 +16,12 @@
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{not raise}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:userTask id="handle-complaint-task" name="Supporter handles complaint" camunda:formRef="responseForm" camunda:formRefBinding="latest">
-      <bpmn:extensionElements />
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="complaintInput">${complaint}</camunda:inputParameter>
+          <camunda:inputParameter name="emailInput">${email}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1z0fe5l</bpmn:incoming>
       <bpmn:outgoing>Flow_0p2fxng</bpmn:outgoing>
     </bpmn:userTask>
