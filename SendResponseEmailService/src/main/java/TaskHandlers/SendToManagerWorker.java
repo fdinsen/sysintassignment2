@@ -1,23 +1,24 @@
 package TaskHandlers;
 
-import java.util.logging.Logger;
-
 import org.camunda.bpm.client.ExternalTaskClient;
 
-public class SendResponseWorker {
-    private final static Logger LOGGER = Logger.getLogger(SendResponseWorker.class.getName());
+import java.util.logging.Logger;
 
-    public SendResponseWorker() {
+public class SendToManagerWorker {
+    private final static Logger LOGGER = Logger.getLogger(SendToManagerWorker.class.getName());
+
+    public SendToManagerWorker() {
     }
 
-    public void sendResponseWorker() {
+    public void sendToManagerWorker() {
         ExternalTaskClient client = ExternalTaskClient.create()
                 .baseUrl("http://localhost:8080/engine-rest")
                 .asyncResponseTimeout(10000) // long polling timeout
                 .build();
 
         // subscribe to an external task topic as specified in the process
-        client.subscribe("SendResponseEmail")
+        // Ved ikke hvad varible i kalder den endnu
+        client.subscribe("SendManagerEmail")
                 .lockDuration(1000) // the default lock duration is 20 seconds, but you can override this
                 .handler((externalTask, externalTaskService) -> {
                     // Put your business logic here

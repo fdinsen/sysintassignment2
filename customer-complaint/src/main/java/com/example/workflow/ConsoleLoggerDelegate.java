@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 
-@Component("logger")
 public class ConsoleLoggerDelegate implements JavaDelegate {
 
     private final Logger LOGGER = LoggerFactory.getLogger(ConsoleLoggerDelegate.class.getName());
