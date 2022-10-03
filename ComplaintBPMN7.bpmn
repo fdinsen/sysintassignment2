@@ -22,12 +22,12 @@
     <bpmn:serviceTask id="send-response" name="Send Response to complainer" camunda:type="external" camunda:topic="SendResponseEmail">
       <bpmn:incoming>respond-flow</bpmn:incoming>
     </bpmn:serviceTask>
-    <bpmn:task id="manager" name="Manager handles somehow?">
-      <bpmn:incoming>raise-issue-flow</bpmn:incoming>
-    </bpmn:task>
     <bpmn:sequenceFlow id="raise-issue-flow" name="Raise Issue" sourceRef="respond-or-raise-gateway" targetRef="manager">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{raise}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
+    <bpmn:serviceTask id="manager" name="Manager handles somehow?" camunda:type="external" camunda:topic="SendManagerEmail">
+      <bpmn:incoming>raise-issue-flow</bpmn:incoming>
+    </bpmn:serviceTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="handle-complaint">
@@ -50,9 +50,8 @@
         <dc:Bounds x="630" y="137" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1xlrtvf_di" bpmnElement="manager">
+      <bpmndi:BPMNShape id="Activity_0tscdt3_di" bpmnElement="manager">
         <dc:Bounds x="630" y="250" width="100" height="80" />
-        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1z0fe5l_di" bpmnElement="Flow_1z0fe5l">
         <di:waypoint x="188" y="177" />
