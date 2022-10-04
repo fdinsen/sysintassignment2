@@ -137,14 +137,12 @@ namespace EmailListenerService.Services
                     // TextPart.Text is a convenience property that decodes the content and converts the result to
                     // a string for us
                     var text = body.Text;
-
                     var envelope = message.Envelope;
                     var from = envelope.From;
                     var fromarray = from.ToArray();
                     var firstelement = fromarray[0];
-                    var email = firstelement.ToString();
-                    //Console.WriteLine("HIHI HIHIIHIHI: CONTENT: " + text + " FROM: " + email);
-                    CreateCamundaTaskService.CreateCamundaTask(email, text);
+                    MailboxAddress email = (MailboxAddress) firstelement;
+                    CreateCamundaTaskService.CreateCamundaTask(email.Address, text);
 
                 }
                     

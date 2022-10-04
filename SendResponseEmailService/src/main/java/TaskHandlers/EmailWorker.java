@@ -40,7 +40,7 @@ public class EmailWorker {
 
         try {
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("support@email.com"));
+            message.setFrom(new InternetAddress("complain.camunda@gmail.com"));
             message.setRecipients(
                     Message.RecipientType.TO, InternetAddress.parse(receiver));
             message.setSubject("Mail Subject");

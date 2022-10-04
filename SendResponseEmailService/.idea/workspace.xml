@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,14 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6211c0c9-d84a-48ca-abaa-5adc569dfc76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskHandlers/EmailWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskHandlers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TaskHandlers/SendToManagerWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/.vs/EmailListenerService/FileContentIndex/a8aab05d-9b9b-43a7-8df7-f978b6978709.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/.vs/EmailListenerService/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/.vs/EmailListenerService/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/Services/EmailListenerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/Services/EmailListenerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/bin/Debug/net6.0/EmailListenerService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/bin/Debug/net6.0/EmailListenerService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/bin/Debug/net6.0/EmailListenerService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/bin/Debug/net6.0/EmailListenerService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/Debug/net6.0/EmailListenerService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/EmailListenerService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/EmailListenerService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/EmailListenerService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/EmailListenerService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailListenerServiceNET/EmailListenerService/EmailListenerService/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SendResponseEmailService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SendResponseEmailService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TaskHandlers/SendResponseWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskHandlers/SendResponseWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sendresponseemailservice/SendResponseEmailServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sendresponseemailservice/SendResponseEmailServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TaskHandlers/EmailWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TaskHandlers/EmailWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/src/main/resources/handle-complaint.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/src/main/resources/handle-complaint.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/src/main/resources/response-form.form" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/src/main/resources/response-form.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/target/classes/com/example/workflow/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/target/classes/com/example/workflow/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/target/classes/com/example/workflow/ConsoleLoggerDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/target/classes/com/example/workflow/ConsoleLoggerDelegate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/target/classes/handle-complaint.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/target/classes/handle-complaint.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-complaint/target/classes/response-form.form" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-complaint/target/classes/response-form.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +76,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/gamma/OneDriveEFIF/OneDrive - EFIF/CPH Business/Software Development/System Integration/Assignment 2/SendResponseEmailService",
+    "spring.configuration.checksum": "8301d9811c197dc7385473d688faffee"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="EmailService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmailService" />
@@ -143,7 +160,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -158,11 +175,12 @@
       <workItem from="1664442670334" duration="632000" />
       <workItem from="1664451865938" duration="208000" />
       <workItem from="1664467163712" duration="4366000" />
+      <workItem from="1664870925342" duration="2104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
