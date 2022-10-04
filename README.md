@@ -20,9 +20,6 @@ Otherwise the supporter will send a response directly to the user.
 ### Setup 
 Before running trying to use the project you need to ensure all microservices are up and running. 
 
-
-## Option 1 (the boring way) 
-
 #### Mail service 
 Open the project folder called: `EmailListenerServiceNET`
 
@@ -53,9 +50,6 @@ Open the project folder called: `customer-complaint`
 	
 7. Start using Camunda to run the project, you could start by creating a **process** and then proceed to start a **task** followed by executing the task in the **tasklist** or by looking at the diagram. 
 8. Boom. You're done. Enjoy our project. 
-
-## Option 2 (the easy way) 
-Do it using docker. Thanks. 
 
 # Project description 
 ![BPMN diagram](https://raw.githubusercontent.com/fdinsen/sysintassignment2/main/BPMN.png)
